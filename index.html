@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+    <div id="box">
+        <input id="show" type="text" placeholder="0">
+        <div id="keyboard">
+            <button class="button" onclick="clearAll()">AC</button>
+            <button class="button" onclick="result2()">%</button>
+            <button class="button" onclick="result('/')">/</button>
+            <button class="button col" onclick="result('*')">x</button>
+            <button class="button num" onclick="result('7')">7</button>
+            <button class="button num" onclick="result('8')">8</button>
+            <button class="button num" onclick="result('9')">9</button>
+            <button class="button col" onclick="result('+')">+</button>
+            <button class="button num" onclick="result('4')">4</button>
+            <button class="button num" onclick="result('5')">5</button>
+            <button class="button num" onclick="result('6')">6</button>
+            <button class="button col" onclick="result('-')">-</button>
+            <button class="button num" onclick="result('1')">1</button>
+            <button class="button num" onclick="result('2')">2</button>
+            <button class="button num" onclick="result('3')">3</button>
+            <button class="button solve col" onclick="solve()">=</button>
+            <button class="button zero num" onclick="result('0')">0</button>
+            <button class="button dot num" onclick="result('.')">.</button>
+        </div>
+    </div>
+    
+</body>
+</html>
